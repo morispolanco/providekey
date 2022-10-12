@@ -26,7 +26,7 @@ def app():
             "Use el ejemplo de abajo o escriba su propio texto en español",
             value=s_example,
             max_chars=1250,
-            height=500,
+            height=50,
         )
 
         if st.button("Submit"):

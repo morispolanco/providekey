@@ -1,10 +1,10 @@
 import openai
 
-poem = """Write a poem with the following words: 
+poem = """Esriba un enunciado de misión y otro de visión para la siguiente empresa: 
 ---
 {input}
 ---
-This is the poem: """
+Esta es la misión y la visión: """
 
 def set_openai_key(key):
     """Sets OpenAI key."""

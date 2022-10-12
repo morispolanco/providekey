@@ -17,7 +17,7 @@ def app():
     if api_key:
 
         # Setting up the Title
-        st.title("Escriba un enunciado de misión y un enunciado de visión para la empresa de abajo")
+        st.title("Generador de misión y visión")
 
         # st.write("---")
 

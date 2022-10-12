@@ -17,13 +17,13 @@ def app():
     if api_key:
 
         # Setting up the Title
-        st.title("Write a poem based on these words")
+        st.title("Escriba un enunciado de misión y un enunciado de visión para la empresa de abajo")
 
         # st.write("---")
 
-        s_example = "Birds, flowers, love, sun"
+        s_example = "Mi mascota: servicios veterinarios"
         input = st.text_area(
-            "Use the example below or input your own text in English",
+            "Use el ejemplo de abajo o escriba su propio texto en español",
             value=s_example,
             max_chars=150,
             height=100,

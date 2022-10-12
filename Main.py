@@ -17,16 +17,16 @@ def app():
     if api_key:
 
         # Setting up the Title
-        st.title("Generador de misión y visión")
+        st.title("Escritor GPT-3")
 
         # st.write("---")
 
-        s_example = "Mi mascota: servicios veterinarios"
+        s_example = "Escriba un ensayo argumentativo a favor de los vouchers escolares"
         input = st.text_area(
             "Use el ejemplo de abajo o escriba su propio texto en español",
             value=s_example,
-            max_chars=150,
-            height=100,
+            max_chars=1250,
+            height=500,
         )
 
         if st.button("Submit"):

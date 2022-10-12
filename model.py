@@ -1,10 +1,10 @@
 import openai
 
-poem = """Esriba un enunciado de misión y otro de visión para la siguiente empresa: 
+poem = """Escriba lo que se le pide: 
 ---
 {input}
 ---
-Esta es la misión y la visión: """
+Este es el resultado: """
 
 def set_openai_key(key):
     """Sets OpenAI key."""
@@ -24,11 +24,11 @@ class GeneralModel:
         kwargs = {
             "engine": "text-davinci-002",
             "temperature": 0.85,
-            "max_tokens": 600,
+            "max_tokens": 2400,
             "best_of": 1,
             "top_p": 1,
-            "frequency_penalty": 0,
-            "presence_penalty": 0,
+            "frequency_penalty": 0.5,
+            "presence_penalty": 0.5,
             "stop": ["###"],
         }
 
